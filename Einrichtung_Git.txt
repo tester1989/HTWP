@@ -1,0 +1,56 @@
+Versionskontrolle Software Git
+
+
+1) Git installieren:
+
+        -For Windows®, you can find command-line Git at
+
+	-http://msysgit.github.io/
+
+    	-Download the Git installer and run it.
+
+    	-Choose the install option to run Git from the Windows command prompt. This option adds Git to your PATH variable, so that the Simulink Project can communicate with Git.
+
+    	-Use the default OpenSSH option.
+
+    	-Choose the option Checkout as-is, commit as-is to avoid converting any line endings in files.
+
+    
+	Quelle:
+	http://www.mathworks.de/de/help/simulink/ug/set-up-git-source-control.html
+
+2)Git Simulink einrichten 
+	Matlab 2014
+	-New Simulink Project
+		...name ....create...
+	-Simulink Project Tree --> Source Control
+		
+		Add project to source Control
+		Source Control integration Git
+		convert
+		open Project
+	Matlab Command Window eingeben:
+	
+	edit gitattributes
+	
+	copy paste:
+*.slx -crlf -diff -merge
+*.mdl -crlf -diff -merge
+*.mat -crlf -diff -merge
+*.mdlp -crlf -diff -merge
+*.slxp -crlf -diff -merge
+*.sldd -crlf -diff -merge
+*.p -crlf -diff -merge
+*.mexa64 -crlf -diff -merge
+*.mexw32 -crlf -diff -merge
+*.mexw64 -crlf -diff -merge
+*.mexmaci64 -crlf -diff -merge
+*.xlsx -crlf -diff -merge
+*.docx -crlf -diff -merge
+*.pdf -crlf -diff -merge
+*.jpg -crlf -diff -merge
+*.png -crlf -diff -merge
+
+		save and delete the ending .m --> datei heißt nur noch gitattributes ohne .m
+
+
