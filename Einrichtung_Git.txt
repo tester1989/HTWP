@@ -53,4 +53,12 @@ Versionskontrolle Software Git
 
 		save and delete the ending .m --> datei heißt nur noch gitattributes ohne .m
 
+		
+		Simulink Datei in Projekt Ordner ziehen
+		
+		dann bei punkt All files im Fenster rechter Mausklick auf Add File
+        und bei Modified files Commit...
+		
+		
+
 
