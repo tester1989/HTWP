@@ -1,0 +1,117 @@
+Model name:         	WaermepumpeGrundlageIch	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+Simulation time:    	07-Aug-2014 18:28:18	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+Balance Space Name  	Port Name           	Port Direction      	H2O [mol]           	NH3 [mol]           	H [mol]             	C [mol]             	O [mol]             	N [mol]             	F [mol]             	Cl [mol]            	
+TotalBalance        	                    	                    	0.001               	-0.002              	-0.002              	0.000               	0.001               	-0.002              	0.000               	0.000               	
+WaermepumpeGrundlageIch/Abscheider	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+                    	in                  	in                  	0.123               	0.596               	2.033               	0.000               	0.123               	0.596               	0.000               	0.000               	
+                    	out                 	out                 	0.002               	0.506               	1.522               	0.000               	0.002               	0.506               	0.000               	0.000               	
+                    	H2O                 	out                 	0.121               	0.090               	0.511               	0.000               	0.121               	0.090               	0.000               	0.000               	
+Balance             	                    	                    	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	
+                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Entgaser	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+                    	In1                 	in                  	4.171               	0.000               	8.343               	0.000               	4.171               	0.000               	0.000               	0.000               	
+                    	in2                 	in                  	0.124               	0.594               	2.032               	0.000               	0.124               	0.594               	0.000               	0.000               	
+                    	out1                	out                 	4.171               	0.000               	8.343               	0.000               	4.171               	0.000               	0.000               	0.000               	
+                    	out2                	out                 	0.124               	0.594               	2.032               	0.000               	0.124               	0.594               	0.000               	0.000               	
+Balance             	                    	                    	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	
+                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/IWU	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+                    	In1                 	in                  	0.124               	0.594               	2.032               	0.000               	0.124               	0.594               	0.000               	0.000               	
+                    	in2                 	in                  	0.122               	0.089               	0.511               	0.000               	0.122               	0.089               	0.000               	0.000               	
+                    	out1                	out                 	0.124               	0.594               	2.032               	0.000               	0.124               	0.594               	0.000               	0.000               	
+                    	out2                	out                 	0.122               	0.089               	0.511               	0.000               	0.122               	0.089               	0.000               	0.000               	
+Balance             	                    	                    	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	
+                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Mixer	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+                    	Input flow 1        	in                  	0.002               	0.506               	1.522               	0.000               	0.002               	0.506               	0.000               	0.000               	
+                    	Input flow 1        	in                  	0.122               	0.089               	0.511               	0.000               	0.122               	0.089               	0.000               	0.000               	
+                    	Input flow 1        	out                 	0.123               	0.595               	2.032               	0.000               	0.123               	0.595               	0.000               	0.000               	
+Balance             	                    	                    	-0.000              	0.000               	0.000               	0.000               	-0.000              	0.000               	0.000               	0.000               	
+                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Mixer1	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+                    	Input flow 1        	in                  	0.121               	0.090               	0.511               	0.000               	0.121               	0.090               	0.000               	0.000               	
+                    	Input flow 1        	in                  	0.002               	0.506               	1.522               	0.000               	0.002               	0.506               	0.000               	0.000               	
+                    	Input flow 1        	out                 	0.123               	0.596               	2.033               	0.000               	0.123               	0.596               	0.000               	0.000               	
+Balance             	                    	                    	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	
+                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Resorber	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+                    	In1                 	in                  	0.123               	0.595               	2.032               	0.000               	0.123               	0.595               	0.000               	0.000               	
+                    	in2                 	in                  	4.163               	0.000               	8.326               	0.000               	4.163               	0.000               	0.000               	0.000               	
+                    	out1                	out                 	0.123               	0.595               	2.032               	0.000               	0.123               	0.595               	0.000               	0.000               	
+                    	out2                	out                 	4.163               	0.000               	8.326               	0.000               	4.163               	0.000               	0.000               	0.000               	
+Balance             	                    	                    	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	
+                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Tank	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+                    	tank in 1           	in                  	0.124               	0.594               	2.032               	0.000               	0.124               	0.594               	0.000               	0.000               	
+                    	tank in 2           	in                  	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	0.000               	
+                    	tank out vapor      	out                 	0.002               	0.506               	1.522               	0.000               	0.002               	0.506               	0.000               	0.000               	
+                    	tank out liquid     	out                 	0.121               	0.090               	0.511               	0.000               	0.121               	0.090               	0.000               	0.000               	
+                    	tank content        	stored_start        	9.770               	22.649              	87.488              	0.000               	9.770               	22.649              	0.000               	0.000               	
+                    	tank content        	stored_end          	9.770               	22.649              	87.488              	0.000               	9.770               	22.649              	0.000               	0.000               	
+Balance             	                    	                    	0.001               	-0.002              	-0.002              	0.000               	0.001               	-0.002              	0.000               	0.000               	
+                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	                    	
+Model name:         	WaermepumpeGrundlageIch	                    	                    	                    	
+Simulation time:    	07-Aug-2014 18:28:18	                    	                    	                    	
+                    	                    	                    	                    	                    	
+Balance Space Name  	Port Name           	Port Direction      	[J]                 	                    	
+TotalBalance        	                    	                    	-4781.146           	                    	
+WaermepumpeGrundlageIch/Abscheider	                    	                    	                    	                    	
+                    	in                  	-                   	-64488.471          	                    	
+                    	out                 	-                   	23903.553           	                    	
+                    	H2O                 	-                   	40584.919           	                    	
+Balance             	                    	                    	0.000               	                    	
+                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Entgaser	                    	                    	                    	                    	
+                    	Qdot environment    	-                   	0.000               	                    	
+                    	In1                 	-                   	-1187437.891        	                    	
+                    	in2                 	-                   	-70933.480          	                    	
+                    	out1                	-                   	1191492.327         	                    	
+                    	out2                	-                   	66879.044           	                    	
+                    	thermal mass energy 	stored at start     	293.000             	                    	
+                    	thermal mass energy 	stored at end       	293.000             	                    	
+Balance             	                    	                    	-0.000              	                    	
+                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/IWU	                    	                    	                    	                    	
+                    	Qdot environment    	-                   	0.000               	                    	
+                    	In1                 	-                   	-70822.159          	                    	
+                    	in2                 	-                   	-40711.877          	                    	
+                    	out1                	-                   	70933.481           	                    	
+                    	out2                	-                   	40600.552           	                    	
+                    	thermal mass energy 	stored at start     	293.000             	                    	
+                    	thermal mass energy 	stored at end       	293.000             	                    	
+Balance             	                    	                    	-0.003              	                    	
+                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Mixer	                    	                    	                    	                    	
+                    	Input flow 1        	-                   	62575.743           	                    	
+                    	Input flow 1        	-                   	-21975.190          	                    	
+                    	Input flow 1        	-                   	-40600.552          	                    	
+Balance             	                    	                    	0.000               	                    	
+                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Mixer1	                    	                    	                    	                    	
+                    	Input flow 1        	-                   	64488.471           	                    	
+                    	Input flow 1        	-                   	-40584.918          	                    	
+                    	Input flow 1        	-                   	-23903.553          	                    	
+Balance             	                    	                    	-0.000              	                    	
+                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Resorber	                    	                    	                    	                    	
+                    	Qdot environment    	-                   	0.000               	                    	
+                    	In1                 	-                   	-62575.743          	                    	
+                    	in2                 	-                   	-1185067.755        	                    	
+                    	out1                	-                   	70586.051           	                    	
+                    	out2                	-                   	1177057.450         	                    	
+                    	thermal mass energy 	stored at start     	29.300              	                    	
+                    	thermal mass energy 	stored at end       	29.300              	                    	
+Balance             	                    	                    	0.003               	                    	
+                    	                    	                    	                    	                    	
+WaermepumpeGrundlageIch/Tank	                    	                    	                    	                    	
+                    	Energy port name    	-                   	0.000               	                    	
+                    	Energy port name    	-                   	-2390.573           	                    	
+                    	tank in 1           	-                   	-66879.044          	                    	
+                    	tank out vapor      	-                   	23903.553           	                    	
+                    	tank out liquid     	-                   	40584.918           	                    	
+                    	tank in 2           	-                   	0.000               	                    	
+                    	tank content        	stored at start     	-4026270.015        	                    	
+                    	tank content        	stored at end       	-4026270.015        	                    	
+Balance             	                    	                    	-4781.146           	                    	
+                    	                    	                    	                    	                    	
